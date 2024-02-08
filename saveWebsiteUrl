@@ -1,0 +1,23 @@
+
+// Function to save a website URL to local storage
+function saveWebsiteUrl(url) {
+    // Check if local storage is supported by the browser
+    if (typeof chrome.storage !== "undefined" && chrome.storage.local) {
+      // Get existing URLs from local storage (if any)
+      chrome.storage.local.get({ urls: [] }, function (data) {
+        // Add the new URL to the existing list
+        data.urls.push(url);
+        // Save the updated list back to local storage
+        chrome.storage.local.set({ urls: data.urls }, function () {
+          console.log("Website URL saved successfully:", url);
+        });
+      });
+    } else {
+      console.error("Local storage is not supported.");
+    }
+  }
+  
+  // Example usage: Call saveWebsiteUrl() when you want to save a website URL
+  var exampleUrl = "https://example.com";
+  saveWebsiteUrl(exampleUrl);
+  
