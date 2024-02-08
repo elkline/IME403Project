@@ -1,0 +1,22 @@
+// Wait for the DOM content to be loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if the current webpage URL contains "youtube.com"
+    if (window.location.href.indexOf("youtube.com") > -1) {
+        // Set a timeout to display the pop-up after a certain amount of time (e.g., 5000 milliseconds = 5 seconds)
+        setTimeout(function() {
+            // Call a function to display your pop-up
+            displayPopup();
+        }, 5000); // Adjust the time as needed
+    }
+});
+
+// Function to display the pop-up
+function displayPopup() {
+    // Create a div element for the pop-up
+    var popupDiv = document.createElement('div');
+    popupDiv.innerHTML = 'This is your pop-up content for YouTube.';
+    popupDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;';
+
+    // Append the pop-up div to the body of the page
+    document.body.appendChild(popupDiv);
+}
