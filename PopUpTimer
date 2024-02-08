@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             // Call a function to display your pop-up
             displayPopup();
-        }, 5000); // Adjust the time as needed
+        }, 60000); // Adjust the time as needed, currently 1 minute for testing??
     }
 });
 
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function displayPopup() {
     // Create a div element for the pop-up
     var popupDiv = document.createElement('div');
-    popupDiv.innerHTML = 'This is your pop-up content for YouTube.';
+    popupDiv.innerHTML = 'Stop using youtube!!!';
     popupDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid black;';
 
     // Append the pop-up div to the body of the page
