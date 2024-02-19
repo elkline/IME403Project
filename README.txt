@@ -20,13 +20,13 @@ Known Issues:
 In rare cases, the popup reminder may not display if the browser is in fullscreen mode. We recommend using the extension in windowed mode for optimal performance.
 
 Installation Instructions:
-    1. Locate the folder titled " "
-    2. Open the .zip folder, and take note of where the TimeReminders folder is located on your computer
+    1. Locate the folders titled “interventionTimer“ and “websiteManager”
+    2. Open the .zip folders, and take note of where these are located on your computer
     3. Go to chrome://extensions/
     4. On the upper right corner, turn on “Developer mode” by clicking the switch
-    5. Click “Load unpacked”, locate the TimedReminders folder and click “Select”
+    5. Click “Load unpacked”, locate the downloaded folders and click “Select”
 
-Note: If TimedReminders appears in “All Extensions”, then it has loaded successfully. Access the TimedReminders extension through the extensions tab located on the upper right corner of your chrome window.
+Note: If “interventionTimer” and “websiteManager” appear in “All Extensions”, then both folders have been loaded successfully. Access the extensions through the extensions tab located on the upper right corner of your chrome window.
 
 
 Compatibility Information:
