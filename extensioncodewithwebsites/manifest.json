@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Timed Reminders",
+    "version": "1.0",
+    "description": "Track your time on websites and set time limits.",
+    "permissions": [
+      "storage",
+      "tabs",
+      "notifications"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "options_page": "options.html"
+  }
+  

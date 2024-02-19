@@ -1,0 +1,26 @@
+body {
+    min-width: 250px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #container {
+    text-align: center;
+    background-color: #DCF8C6;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #continue-button {
+    padding: 10px 20px;
+    background-color: #34B7F1;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #continue-button:hover {
+    background-color: #3091D1;
+  }
+  
