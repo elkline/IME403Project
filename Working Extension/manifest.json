@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Time Tracker",
+  "version": "1.0",
+  "description": "Track your screen time across websites.",
+  "permissions": ["alarms", "storage", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+     
+    }
+  },
+  "options_page": "dashboard.html",
+  "icons": {
+   
+  }
+}
+  
+  
