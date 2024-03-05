@@ -76,7 +76,7 @@ function updateScreenTime() {
 }
 
 // Listen for tab activation and update screen time
-chrome.tabs.onActivated.addListener(updateScreenTime);
+//chrome.tabs.onActivated.addListener(updateScreenTime);
 
  //Listen for tab updates (e.g., page load) and update screen time
 //hrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
