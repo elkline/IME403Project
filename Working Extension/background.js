@@ -27,28 +27,32 @@ function updateScreenTime() {
                                             font-family: 'Arial', sans-serif;
                                             margin: 0;
                                             padding: 40px;
-                                            background-color: #f3f4f6;
-                                            color: #333;
+                                            background-color: rgba(255, 255, 255, 1);
+                                            background: linear-gradient(180deg, rgb(82, 182, 154) 0%, rgb(255, 255, 255) 71.5%);
+                                            // background-color: #f3f4f6;
+                                            // color: #333;
                                             text-align: center;
                                         }
                                         h1 {
-                                            color: #e53e3e;
+                                            // color: #e53e3e;
+                                            font-size: 16px;
+                                            color: #FFFFFF;
                                         }
                                         p {
                                             font-size: 18px;
                                         }
                                         button {
-                                            background-color: #3182ce;
+                                            background-color: #52B69A;
                                             color: white;
                                             border: none;
                                             padding: 10px 20px;
                                             margin-top: 20px;
                                             font-size: 16px;
-                                            border-radius: 5px;
+                                            border-radius: 12px;
                                             cursor: pointer;
                                         }
                                         button:hover {
-                                            background-color: #2c5282;
+                                            background-color: #3182ce;
                                         }
                                     </style>
                                 </head>
