@@ -40,6 +40,7 @@ function updateScreenTime() {
                                         }
                                         p {
                                             font-size: 18px;
+                                            color: #225F91;
                                         }
                                         button {
                                             background-color: #52B69A;
