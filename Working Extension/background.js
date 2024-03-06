@@ -46,7 +46,7 @@ function updateScreenTime() {
                                             color: #225F91;
                                         }
                                         button {
-                                            background-color: #52B69A;
+                                            background-color: #225F91;
                                             color: white;
                                             border: none;
                                             padding: 10px 20px;

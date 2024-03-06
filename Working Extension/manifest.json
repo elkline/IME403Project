@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Screen Time Tracker",
+  "name": "TimedReminders",
   "version": "1.0",
   "description": "Track your screen time across websites.",
   "permissions": ["alarms", "storage", "tabs", "activeTab"],
