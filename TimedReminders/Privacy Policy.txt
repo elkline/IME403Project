@@ -1,0 +1,50 @@
+Privacy Policy for TimedReminders
+
+Effective Date: 3.5.2024
+
+1. Introduction
+
+[Your Chrome Extension Name] (referred to as "we," "us," or "our") is committed to safeguarding the privacy of its users. This Privacy Policy outlines how we collect, use, and disclose information obtained from users of our Chrome extension.
+
+2. Information We Collect
+
+2.1. User Input:
+Our Chrome extension allows users to input websites and set time limits for each website. We collect and store this information to provide the intended functionality of the extension, specifically to deliver pop-up reminders when users have spent the specified amount of time on a given website.
+
+3. How We Use Collected Information
+
+3.1. Reminder Functionality:
+The information collected, including user-inputted websites and time limits, is used solely to deliver pop-up reminders when users have exceeded the specified time limit on a website. This functionality aims to help users manage their time spent on websites and promote healthy browsing habits.
+
+4. Data Sharing and Disclosure
+
+4.1. No Third-Party Sharing:
+We do not share user-inputted website information or time limits with any third parties, except as necessary to provide technical support or as required by law.
+
+5. Data Retention
+
+5.1. Limited Retention:
+We retain user-inputted website information and time limits only for as long as necessary to provide the reminder functionality of our Chrome extension. Once a user removes a website from their list or modifies a time limit, the associated data is promptly deleted from our records.
+
+6. User Controls and Choices
+
+6.1. Opt-Out Options:
+Users have full control over the websites they input and the time limits they set within our Chrome extension. They can modify, add, or remove websites and time limits at any time through the extension's interface.
+
+7. Security Measures
+
+7.1. Data Security:
+We implement robust security measures to protect user-inputted website information and time limits against unauthorized access, alteration, disclosure, or destruction. These measures include encryption, access controls, and regular security assessments.
+
+8. Changes to This Privacy Policy
+
+8.1. Notification of Changes:
+We reserve the right to update or modify this Privacy Policy as needed. Users will be notified of any material changes to the policy through a notice within the extension or via email. Users are encouraged to review this Privacy Policy periodically for any updates.
+
+9. Contact Us
+
+If you have any questions, concerns, or feedback regarding this Privacy Policy or our data practices, please contact us at [contact email address].
+
+10. Consent
+
+By using our Chrome extension, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy.
