@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
           websitesList.innerHTML = '';
           if (result.trackedWebsites) {
               Object.entries(result.trackedWebsites).forEach(([site, time]) => {
-                  websitesList.innerHTML += `${site} - Time Limit: ${time} minutes<br>`;
+                //   websitesList.innerHTML += `${site} - Time Limit: ${time} minutes<br>`;
+                  websitesList.innerHTML += `<li style="list-style-type: none;color:#225F91;font-size:16px;">${site} - Time Limit: ${limit} minutes</li>`;
               });
           }
       });
