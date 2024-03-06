@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       contentHTML += '</ul>';
 
       if (Object.keys(trackedWebsites).length === 0) {
-          contentHTML = '<p>No websites are currently being tracked.</p>';
+          contentHTML = '<p style="color:white;font-size:16px;">No websites are currently being tracked.</p>';
       }
 
       dashboardContent.innerHTML = contentHTML;

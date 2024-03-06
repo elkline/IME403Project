@@ -32,14 +32,17 @@ function updateScreenTime() {
                                             // background-color: #f3f4f6;
                                             // color: #333;
                                             text-align: center;
+                                            position: relative;
+                                            width: 1440px;
+                                            height: 1024px;
                                         }
                                         h1 {
                                             // color: #e53e3e;
-                                            font-size: 16px;
+                                            font-size: 20px;
                                             color: #FFFFFF;
                                         }
                                         p {
-                                            font-size: 18px;
+                                            font-size: 16px;
                                             color: #225F91;
                                         }
                                         button {
