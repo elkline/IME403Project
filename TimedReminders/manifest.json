@@ -3,7 +3,7 @@
   "name": "TimedReminders",
   "version": "1.0",
   "description": "Track your screen time across websites.",
-  "permissions": ["alarms", "storage", "tabs", "activeTab"],
+  "permissions": ["alarms", "storage", "tabs"],
   "background": {
     "service_worker": "background.js"
   },
